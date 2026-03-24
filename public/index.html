@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Token Usage Hub</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <main class="container">
+      <header class="hero">
+        <div class="hero-copy">
+          <h1 id="titleText">Token Usage Hub</h1>
+          <p id="subtitleText">Monitor API token usage across providers in one place.</p>
+        </div>
+        <div class="hero-actions">
+          <div class="switch-row">
+            <label class="switch-field" for="themeSelect">
+              <span id="themeLabel">Theme</span>
+              <select id="themeSelect">
+                <option value="dark" id="themeDarkOption">Dark Knight</option>
+                <option value="light" id="themeLightOption">Fresh Light</option>
+              </select>
+            </label>
+            <label class="switch-field" for="langSelect">
+              <span id="languageLabel">Language</span>
+              <select id="langSelect">
+                <option value="zh" id="langZhOption">中文</option>
+                <option value="en" id="langEnOption">English</option>
+              </select>
+            </label>
+          </div>
+          <button id="refreshBtn" type="button">Refresh</button>
+        </div>
+      </header>
+
+      <section class="summary" id="summaryCards">
+        <article class="summary-card">
+          <h2 id="totalUsedLabel">Total Used</h2>
+          <p id="totalUsed">-</p>
+        </article>
+        <article class="summary-card">
+          <h2 id="totalLimitLabel">Total Limit</h2>
+          <p id="totalLimit">-</p>
+        </article>
+        <article class="summary-card">
+          <h2 id="totalPercentLabel">Overall Usage</h2>
+          <p id="totalPercent">-</p>
+        </article>
+      </section>
+
+      <section class="status-line">
+        <span id="lastUpdated">Last updated: -</span>
+        <span id="refreshHint">Auto refresh: -</span>
+      </section>
+
+      <section id="notice" class="notice hidden"></section>
+      <section id="providerGrid" class="provider-grid"></section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,86 @@
+{
+  "refreshSeconds": 60,
+  "providers": [
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "mode": "external-link",
+      "enabled": true,
+      "portalUrl": "https://platform.xiaomi.com/",
+      "linkLabel": "Open usage page",
+      "message": "Set this to your Xiaomi model usage URL."
+    },
+    {
+      "id": "glm",
+      "name": "GLM (Zhipu)",
+      "mode": "external-link",
+      "enabled": true,
+      "portalUrl": "https://open.bigmodel.cn/console/overview",
+      "linkLabel": "Open usage page",
+      "message": "Set this to your GLM usage or billing page URL."
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "mode": "external-link",
+      "enabled": true,
+      "portalUrl": "https://platform.deepseek.com/usage",
+      "linkLabel": "Open usage page",
+      "message": "Set this to your DeepSeek usage page URL."
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "mode": "external-link",
+      "enabled": true,
+      "portalUrl": "https://openrouter.ai/settings/credits",
+      "linkLabel": "Open usage page",
+      "message": "Set this to your OpenRouter usage or credits page URL."
+    },
+    {
+      "id": "siliconflow",
+      "name": "SiliconFlow",
+      "mode": "external-link",
+      "enabled": true,
+      "portalUrl": "https://cloud.siliconflow.cn/",
+      "linkLabel": "Open usage page",
+      "message": "Set this to your SiliconFlow usage or billing page URL."
+    },
+    {
+      "id": "commonstack",
+      "name": "Commonstack",
+      "mode": "external-link",
+      "enabled": true,
+      "portalUrl": "https://commonstack.ai/",
+      "linkLabel": "Open usage page",
+      "message": "Set this to your Commonstack credits or usage page URL."
+    },
+    {
+      "id": "moonshot-kimi",
+      "name": "Moonshot (Kimi)",
+      "mode": "external-link",
+      "enabled": true,
+      "portalUrl": "https://platform.moonshot.cn/",
+      "linkLabel": "Open usage page",
+      "message": "Set this to your Moonshot usage or billing page URL."
+    },
+    {
+      "id": "youware",
+      "name": "YouWare",
+      "mode": "external-link",
+      "enabled": true,
+      "portalUrl": "https://www.youware.com/",
+      "linkLabel": "Open usage page",
+      "message": "Set this to your YouWare credits page URL."
+    },
+    {
+      "id": "qiniu",
+      "name": "Qiniu Cloud",
+      "mode": "external-link",
+      "enabled": true,
+      "portalUrl": "https://portal.qiniu.com/",
+      "linkLabel": "Open usage page",
+      "message": "Set this to your Qiniu usage or billing page URL."
+    }
+  ]
+}

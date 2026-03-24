@@ -1,0 +1,10 @@
+{
+  "name": "token-usage-hub",
+  "version": "1.0.0",
+  "description": "Unified dashboard for API token usage across providers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
