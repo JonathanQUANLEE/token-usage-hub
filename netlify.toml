@@ -1,11 +1,11 @@
 [build]
-  command = "npm install"
+  command = "npm install && node scripts/prepare-netlify.js"
   publish = "public"
   functions = "netlify/functions"
 
 [functions]
   node_bundler = "esbuild"
-  included_files = ["providers.config.json"]
+  included_files = ["providers.config.json", "public/providers.config.json"]
 
 [[redirects]]
   from = "/api/usage"
